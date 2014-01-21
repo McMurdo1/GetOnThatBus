@@ -21,6 +21,8 @@
 		3A2A07A7188F03EB00ACBE9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2A0789188F03EB00ACBE9E /* UIKit.framework */; };
 		3A2A07AF188F03EB00ACBE9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A07AD188F03EB00ACBE9E /* InfoPlist.strings */; };
 		3A2A07B1188F03EB00ACBE9E /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A07B0188F03EB00ACBE9E /* GetOnThatBusTests.m */; };
+		3A2A07BB188F08D200ACBE9E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2A07BA188F08D200ACBE9E /* MapKit.framework */; };
+		3A2A07BE188F207200ACBE9E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A07BD188F207200ACBE9E /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		3A2A07AC188F03EB00ACBE9E /* GetOnThatBusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetOnThatBusTests-Info.plist"; sourceTree = "<group>"; };
 		3A2A07AE188F03EB00ACBE9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A2A07B0188F03EB00ACBE9E /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		3A2A07BA188F08D200ACBE9E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3A2A07BC188F207200ACBE9E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3A2A07BD188F207200ACBE9E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2A07BB188F08D200ACBE9E /* MapKit.framework in Frameworks */,
 				3A2A0788188F03EB00ACBE9E /* CoreGraphics.framework in Frameworks */,
 				3A2A078A188F03EB00ACBE9E /* UIKit.framework in Frameworks */,
 				3A2A0786188F03EB00ACBE9E /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		3A2A0784188F03EB00ACBE9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A2A07BA188F08D200ACBE9E /* MapKit.framework */,
 				3A2A0785188F03EB00ACBE9E /* Foundation.framework */,
 				3A2A0787188F03EB00ACBE9E /* CoreGraphics.framework */,
 				3A2A0789188F03EB00ACBE9E /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				3A2A0797188F03EB00ACBE9E /* Main.storyboard */,
 				3A2A079A188F03EB00ACBE9E /* ViewController.h */,
 				3A2A079B188F03EB00ACBE9E /* ViewController.m */,
+				3A2A07BC188F207200ACBE9E /* DetailViewController.h */,
+				3A2A07BD188F207200ACBE9E /* DetailViewController.m */,
 				3A2A079D188F03EB00ACBE9E /* Images.xcassets */,
 				3A2A078C188F03EB00ACBE9E /* Supporting Files */,
 			);
@@ -252,6 +261,7 @@
 				3A2A079C188F03EB00ACBE9E /* ViewController.m in Sources */,
 				3A2A0796188F03EB00ACBE9E /* AppDelegate.m in Sources */,
 				3A2A0792188F03EB00ACBE9E /* main.m in Sources */,
+				3A2A07BE188F207200ACBE9E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
